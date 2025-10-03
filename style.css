@@ -1,0 +1,20 @@
+/* General Body */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Section Headings */
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Cards */
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
