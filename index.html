@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,38 +11,46 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#"></a><!-- Name -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm px-5">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="home.png" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+      </ul>
     </div>
   </nav>
 
-  <!-- Hero / Header -->
-  <header class="bg-dark text-white text-center py-5">
+  <!-- Header -->
+  <header class="bg-dark text-white text-center py-5 my-5">
     <div class="container">
-      <h1 class="fw-bold">Hello, I'm Raihan Taufiqurrahman</h1>
-      <p class="lead">Computer Science Fresh Graduate</p>
+      <img src="Profile.jpeg" 
+         class="rounded-circle mb-4 shadow"
+         width="160" height="160" 
+         alt="Profile Photo">
+      <h1 class="fw-bold">Raihan Taufiqurrahman</h1>
+      <p class="lead">Sarjana Ilmu Komputer - Fresh Graduate</p>
     </div>
   </header>
 
   <!-- About Section -->
   <section id="about" class="container my-5">
-    <h2 class="mb-4">About Me</h2>
+    <h2 class="mb-4">Tentang Saya</h2>
     <p>
-       Computer science graduate, able to code in various programming language and have interest to work in the field of informatics and computer. 
-       Eager to apply academic knowledge and certified technical skills to real-world projects 
-       while also gain valuable industry experience and continuously learning and adapting to solve new problems
+      Fresh graduate dari Universitas Pendidikan Indonesia jurusan Ilmu Komputer. 
+      Berminat untuk berkarir di bidang Ilmu Komputer/Informatika 
+      terutama yang berhubungan dengan pengembangan software atau pengolahan data. 
+      Sebagai langkah awal dalam membangun karir, 
+      saya ingin menerapkan pengetahuan akademis maupun keterampilan teknis yang telah dipelajari 
+      dalam lingkungan nyata sehingga mendapatkan pengalaman dalam industri. 
+      Saya juga bertekad untuk terus belajar hal baru baik itu di dalam maupun di luar lingkup ilmu komputer.
     </p>
   </section>
 
@@ -53,33 +61,33 @@
       <!-- Project Card 1 -->
       <div class="col-md-6 col-lg-4">
         <div class="card h-100 shadow-sm">
-          <img src="images/game1.png" class="card-img-top" alt="Puzzle Adventure Game">
-          <div class="card-body text-center">
-            <h5 class="card-title"> Educational Game for Computational Thinking</h5>
-            <p class="card-text"> An educational game designed and developed to encourage players to solve problems using computational thinking approaches. Game can be played on Android and Windows</p>
-            <a href="https://github.com/yourusername/game-project" class="btn btn-dark" target="_blank">View Project</a>
+          <img src="porto/img_game/Screenshot (233).png" class="card-img-top" alt="Puzzle Adventure Game">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title"> Game Edukasi Berpikir Komputasional</h5>
+            <p class="card-text"> Game edukasi yang didesain agar pemain menyelesaikan permasalahan menggunakan prinsip berpikir komputasional. Target pemain dari game ini adalah siswa SMP/Sederajat. Game dapat dijalankan di Windows dan Android.</p>
+            <a href="porto/game.html" class="btn btn-outline-primary mt-auto">Lihat Detail</a>
           </div>
         </div>
       </div>
       <!-- Project Card 2 -->
       <div class="col-md-6 col-lg-4">
         <div class="card h-100 shadow-sm">
-          <img src="images/web1.png" class="card-img-top" alt="E-commerce Website">
-          <div class="card-body text-center">
-            <h5 class="card-title"> Tampomas Coffee Website</h5>
-            <p class="card-text"> Developed website for a business that sells coffee bean and coffee powder produced by farmer in Sumedang.</p>
-            <a href="https://github.com/yourusername/web-project" class="btn btn-dark" target="_blank">View Project</a>
+          <img src="porto/img_tampomas/Screenshot(214).png" class="card-img-top" alt="E-commerce Website">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title"> Website Tampomas Coffee</h5>
+            <p class="card-text"> Proyek kelompok membuat website untuk UMKM yang menjual bubuk dan biji kopi yang ditanam oleh petani di Sumedang.</p>
+            <a href="porto/tampomas.html" class="btn btn-outline-primary mt-auto">Lihat Detail</a>
           </div>
         </div>
       </div>
       <!-- Project Card 3 -->
       <div class="col-md-6 col-lg-4">
         <div class="card h-100 shadow-sm">
-          <img src="images/other.png" class="card-img-top" alt="Other Projects">
-          <div class="card-body text-center">
-            <h5 class="card-title"> Interactive Report for Posyandu</h5>
-            <p class="card-text"> Developed an interactive report of toddler health data for Posyandu (Health Post Service) Sariwangi Village</p>
-            <a href="https://github.com/yourusername" class="btn btn-dark" target="_blank">See More</a>
+          <img src="thumbnail-posyandu.png" class="card-img-top" alt="Other Projects">
+          <div class="card-body text-center d-flex flex-column">
+            <h5 class="card-title"> Dashboard Posyandu Desa Sariwangi</h5>
+            <p class="card-text"> Dashboard atau Laporan Interaktif untuk data kesehatan SKDN balita di Posyandu Desa Sariwangi </p>
+            <a href="porto/posyandu_sariwangi.html" class="btn btn-outline-primary mt-auto">Lihat Detail</a>
           </div>
         </div>
       </div>
@@ -88,22 +96,22 @@
 
   <!-- CV Section -->
   <section id="cv" class="container my-5 text-center">
-    <h2 class="mb-4">My CV</h2>
+    <h2 class="mb-4">CV</h2>
     <p>
-      You can <a href="cv.pdf" target="_blank" class="btn btn-outline-dark">Download my CV</a>.
+      Lihat CV saya: <a href="https://drive.google.com/file/d/1QCrO3wxw1tF9PkQgpMUu69CCdo5YFrj4/view?usp=sharing" target="_blank" class="btn btn-outline-dark">Download CV</a>.
     </p>
   </section>
 
   <!-- Contact Section -->
   <section id="contact" class="container my-5">
-    <h2 class="mb-4">Contact Me</h2>
+    <h2 class="mb-4">Kontak</h2>
     <p>Email: <a href="mailto:raihantaufiqurrahman20@gmail.com">raihantaufiqurrahman20@gmail.com</a></p>
     <p>LinkedIn: <a href="https://linkedin.com/in/raihan-taufiqurrahman" target="_blank">linkedin.com/in/raihan-taufiqurrahman</a></p>
   </section>
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
-    <p class="mb-0">&copy; 2025 [Your Name]. All rights reserved.</p>
+    <p class="mb-0">&copy; 2025 Raihan Taufiqurrahman. All rights reserved.</p>
   </footer>
 
   <!-- Bootstrap JS -->
